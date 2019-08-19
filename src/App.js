@@ -1,9 +1,17 @@
-import React, { Component } from 'react'
-import HelloWorld from './components/HelloWorld'
+import React, { Component } from "react"
+import CreateOctoCat from "./components/CreateOctoCat"
+import NavBar from "./components/NavBar"
 
 class App extends Component {
   render() {
-    return <HelloWorld />
+    return (
+      <section>
+        <NavBar />
+        <main>
+          <CreateOctoCat />
+        </main>
+      </section>
+    )
   }
 }
 
